@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <firstLevel1>
+        <secondLevel11/>
+    </firstLevel1>
+    <firstLevel2>
+        <secondLevel21>
+            <thirdLevel211/>
+        </secondLevel21>
+    </firstLevel2>
+</root>
