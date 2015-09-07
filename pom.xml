@@ -8,6 +8,12 @@
     <artifactId>jaxb-xml-model-comparator</artifactId>
     <version>1.0</version>
 
+    <repositories>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
 
     <name>JAXB xml model comparator</name>
     <description>JAXB sml model</description>
@@ -57,6 +63,7 @@
         <jacoco-maven-plugin.version>0.7.5.201505241946</jacoco-maven-plugin.version>
         <junit.version>4.12</junit.version>
         <commons-io.version>2.4</commons-io.version>
+        <suunto-sml-model.version>1.0</suunto-sml-model.version>
     </properties>
 
     <dependencyManagement>
@@ -77,6 +84,12 @@
                 <version>${junit.version}</version>
                 <scope>test</scope>
             </dependency>
+            <dependency>
+                <groupId>com.github.mihaildemidoff</groupId>
+                <artifactId>suunto-sml-model</artifactId>
+                <version>${suunto-sml-model.version}</version>
+                <scope>test</scope>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
@@ -86,12 +99,16 @@
             <artifactId>commons-lang3</artifactId>
         </dependency>
         <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+        </dependency>
+        <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
         </dependency>
         <dependency>
-            <groupId>commons-io</groupId>
-            <artifactId>commons-io</artifactId>
+            <groupId>com.github.mihaildemidoff</groupId>
+            <artifactId>suunto-sml-model</artifactId>
         </dependency>
     </dependencies>
 

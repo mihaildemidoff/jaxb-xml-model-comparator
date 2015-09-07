@@ -9,13 +9,13 @@ import java.util.List;
 /**
  * @author Mikhail Demidov
  */
-public class ModelComparatorTest {
+public class XmlModelComparatorTest {
 
-    private ModelComparator comparator;
+    private XmlModelComparator comparator;
 
     @Before
     public void setUp() throws Exception {
-        comparator = new ModelComparator();
+        comparator = new XmlModelComparator();
     }
 
     @Test

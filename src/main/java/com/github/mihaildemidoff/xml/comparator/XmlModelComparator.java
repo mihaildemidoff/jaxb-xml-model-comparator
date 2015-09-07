@@ -13,12 +13,12 @@ import java.util.Stack;
  *
  * @author Mikhail Demidov
  */
-public class ModelComparator {
+public class XmlModelComparator {
 
     /**
      * Default constructor.
      */
-    public ModelComparator() {
+    public XmlModelComparator() {
     }
 
     /**
